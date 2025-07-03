@@ -1,7 +1,14 @@
-console.log("hi");
+//console.log("hi");
 
 function addAB(a, b) {
     return a+b;
 }
 
-module.exports = addAB;
+function func2(a, b) {
+    return a*b;
+}
+
+module.exports = {
+    addAB,
+    func2
+}

@@ -1,0 +1,10 @@
+{
+    "devDependencies": {
+        "ansi-colors": "^4.1.3"
+    },
+
+    "scripts": {
+        "dev": "node main.js",
+        "delete-node-modules": "rm -rf node_modules"
+    }
+}
